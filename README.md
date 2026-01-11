@@ -72,11 +72,17 @@ My work focuses on **robust system design**, **performance optimization**, and *
 
 ## 📊 GitHub Activity & Statistics
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=idamanukyan&show_icons=true&include_all_commits=true&count_private=true&hide_title=true)
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=idamanukyan&show_icons=true&include_all_commits=true&count_private=true&hide_title=true&cache_seconds=1800" />
+</p>
 
-![GitHub Streak](https://streak-stats.demolab.com?user=idamanukyan&include_all_commits=true&count_private=true)
+<p align="left">
+  <img src="https://streak-stats.demolab.com?user=idamanukyan&include_all_commits=true&count_private=true" />
+</p>
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=idamanukyan&layout=compact&langs_count=8)
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=idamanukyan&layout=compact&langs_count=8" />
+</p>
 
 ---
 
