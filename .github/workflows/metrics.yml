@@ -20,12 +20,12 @@ jobs:
           # Core sections
           base: header, activity, community, repositories
 
-          # IMPORTANT: include private work in aggregates
+          # Include private work in aggregates
           repositories: 200
           repositories_affiliations: owner, collaborator, organization_member
           repositories_skipped: ""
 
-          # Private contributions (shows as aggregate, does NOT expose private repo names)
+          # Display settings
           config_display: large
           config_timezone: Europe/Berlin
 
@@ -37,22 +37,14 @@ jobs:
           plugin_languages_details: bytes-size, percentage
           plugin_languages_indepth: yes
 
-          # Contribution calendar (shows private commits as green squares)
+          # Contribution calendar (shows private commits)
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
-          # Coding habits - disabled due to upstream bug
-          # plugin_habits: yes
-          # plugin_habits_facts: yes
-          # plugin_habits_charts: yes
-          # plugin_habits_days: 14
-          # plugin_habits_from: 200
-
-          # Lines of code changed (aggregates from private repos)
+          # Lines of code changed
           plugin_lines: yes
           plugin_lines_history_limit: 1
 
-          # Achievements (unlocked from all activity)
-          plugin_achievements: yes
-          plugin_achievements_display: compact
-          plugin_achievements_threshold: C
+          # Disabled plugins (upstream bugs/deprecations)
+          plugin_habits: no
+          plugin_achievements: no
