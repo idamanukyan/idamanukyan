@@ -7,6 +7,8 @@ on:
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Generate metrics
         uses: lowlighter/metrics@latest
@@ -38,12 +40,12 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
-          # Coding habits (patterns from all repos including private)
-          plugin_habits: yes
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
-          plugin_habits_days: 14
-          plugin_habits_from: 200
+          # Coding habits - disabled due to upstream bug
+          # plugin_habits: yes
+          # plugin_habits_facts: yes
+          # plugin_habits_charts: yes
+          # plugin_habits_days: 14
+          # plugin_habits_from: 200
 
           # Lines of code changed (aggregates from private repos)
           plugin_lines: yes
